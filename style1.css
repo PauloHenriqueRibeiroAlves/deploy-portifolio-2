@@ -1,0 +1,63 @@
+/*Meus certificados
+Index3*/
+body{
+    background-color: #3b576d;
+    margin: 0px 90px 0px 100px;
+    /*background-color: rgba(128, 128, 128, 0.2);*/
+    display:block;
+    max-width: 1200px;
+    /*border: 0px;*/
+    height: 100%;       
+}
+.titulo{
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+    font-size: 50px;
+    background-color: #3b5788;
+    color: #fff;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+h2{
+    font-size: 30px;
+    margin: 5px 0px;
+    color: #fff;
+}
+.fotosArea{
+    /*margin-bottom: 10px;*/
+    padding: 10px;
+    display: block;
+    justify-content: center;
+    text-align: center;
+    background-color: #3b5788;
+}
+img{
+    width: 375px;
+    margin-right: 5px;
+    padding: 0.25rem;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem;
+    max-width: 100%;
+    height: auto;
+}
+.rodapé3{
+    display: flex;
+    justify-content: space-evenly;
+}
+.rodapé3 a{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+.rodapé3 a img{
+    width: 30px;
+    height: 30px;
+}
+
+@media (max-Width: 1000px){
+    body{
+        margin: 0px;
+    }
+}
